@@ -1,0 +1,135 @@
+/media/saul/AS1000/workspace/VHDL_Exe/uart_prj/rtl/comparator.vhd {1 {vcom -work work -2002 -explicit -stats=none /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/rtl/comparator.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity comparator
+-- Compiling architecture behavioral of comparator
+
+} {} {}} /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/rtl/tx_fsm.vhd {1 {vcom -work work -2002 -explicit -stats=none /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/rtl/tx_fsm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tx_fsm
+-- Compiling architecture behavioral of tx_fsm
+
+} {} {}} /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/tb/tb_tx_fsm.vhd {1 {vcom -work work -2002 -explicit -stats=none /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/tb/tb_tx_fsm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_tx_fsm
+-- Compiling architecture tb of tb_tx_fsm
+-- Loading entity tx_fsm
+
+} {} {}} /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/tb_pwm_controller.vhd {1 {vcom -work work -2002 -explicit -stats=none /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/tb_pwm_controller.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_pwm_controller
+-- Compiling architecture tb of tb_pwm_controller
+-- Loading entity pwm_controller
+
+} {} {}} /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/rtl/sipo.vhd {1 {vcom -work work -2002 -explicit -stats=none /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/rtl/sipo.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sipo
+-- Compiling architecture behavioral of sipo
+
+} {} {}} /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/rtl/piso.vhd {1 {vcom -work work -2002 -explicit -stats=none /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/rtl/piso.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity piso
+-- Compiling architecture behavioral of piso
+
+} {} {}} /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/tb/tb_piso.vhd {1 {vcom -work work -2002 -explicit -stats=none /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/tb/tb_piso.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_piso
+-- Compiling architecture tb of tb_piso
+-- Loading package NUMERIC_STD
+-- Loading entity piso
+
+} {} {}} /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/rtl/sample_tick_gen.vhd {1 {vcom -work work -2002 -explicit -stats=none /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/rtl/sample_tick_gen.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sample_tick_gen
+-- Compiling architecture structural of sample_tick_gen
+-- Loading package NUMERIC_STD
+-- Loading entity rate_selector
+-- Loading entity counterNb
+-- Loading entity comparator
+
+} {} {}} /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/rtl/uart_tx_core.vhd {1 {vcom -work work -2002 -explicit -stats=none /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/rtl/uart_tx_core.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity uart_tx_core
+-- Compiling architecture structural of uart_tx_core
+-- Loading entity tx_fsm
+-- Loading package NUMERIC_STD
+-- Loading entity piso
+-- Loading entity sample_tick_gen
+
+} {} {}} /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/tb/tb_baud_tick.vhd {1 {vcom -work work -2002 -explicit -stats=none /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/tb/tb_baud_tick.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_baud_tick
+-- Compiling architecture tb of tb_baud_tick
+-- Loading entity sample_tick_gen
+
+} {} {}} /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/tb/tb_uart_tx_core.vhd {1 {vcom -work work -2002 -explicit -stats=none /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/tb/tb_uart_tx_core.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_uart_tx_core
+-- Compiling architecture tb of tb_uart_tx_core
+-- Loading entity uart_tx_core
+
+} {} {}} /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/rtl/CounterNb.vhd {1 {vcom -work work -2002 -explicit -stats=none /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/rtl/CounterNb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity counterNb
+-- Compiling architecture behavioral of counterNb
+
+} {} {}} /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/rtl/rate_selector.vhd {1 {vcom -work work -2002 -explicit -stats=none /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/rtl/rate_selector.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity rate_selector
+-- Compiling architecture behavioral of rate_selector
+
+} {} {}} /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/pwm_controller.vhd {1 {vcom -work work -2002 -explicit -stats=none /media/saul/AS1000/workspace/VHDL_Exe/uart_prj/pwm_controller.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity pwm_controller
+-- Compiling architecture structural of pwm_controller
+-- Loading package NUMERIC_STD
+-- Loading entity counterNb
+-- Loading entity comparator
+
+} {} {}}
