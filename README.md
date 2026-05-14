@@ -91,6 +91,7 @@ uart_rtl/
 │   └── simulation results and diagrams
 │
 └── README.md
+```
 # Verification
 
 Testbenches have been developed for:
@@ -118,8 +119,9 @@ ModelSim simulation scripts are available in the `sim/` directory.
 Example:
 ```tcl
 do run_tb_uart_tx_core.do
+or
 do tb_uart_rx_core.do
-
+```
 # Tools
 
 Recommended simulation environment:
