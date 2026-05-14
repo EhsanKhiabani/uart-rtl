@@ -91,3 +91,15 @@ Thumbs.db
 *.tmp
 .vscode/
 .idea/
+
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.bmp
+*.gif
+
+# Documents
+*.pdf

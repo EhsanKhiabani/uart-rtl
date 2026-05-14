@@ -1,29 +1,30 @@
 LIBRARY IEEE;
 USE IEEE.STD_LOGIC_1164.ALL;
 
-entity sample_tick_gen is
+entity baud_tick_gen is
  generic ( CWIDTH : natural :=8 );
  port(
 	i_clk : in std_logic;
+	i_en : in std_logic;
 	i_baud_select : in std_logic_vector(1 downto 0);
-	
+
 	o_tick : out std_logic	
  ); 
-end entity sample_tick_gen;
+end entity baud_tick_gen;
 
 
-architecture structural of sample_tick_gen is
+architecture structural of baud_tick_gen is
  signal s_rst : std_logic := '0';
  signal s_cnt : std_logic_vector(CWIDTH-1 downto 0) := (others => '0');
+ signal s_half_setpoint : std_logic_vector(CWIDTH-1 downto 0);
  signal s_setpoint : std_logic_vector(CWIDTH-1 downto 0);
  signal s_tick : std_logic;
- signal s_en: std_logic := '1';
- signal s_preload: std_logic_vector(CWIDTH-1 downto 0) := (others => '0');
 begin
  
- rate_sel: entity work.rate_selector
+ rate_sel: entity work.baud_rate_lut
 	port map (
 		i_rate_sel=>i_baud_select,
+                o_half_setpoint => s_half_setpoint,
 		o_setpoint=>s_setpoint
 	);
  
@@ -31,9 +32,9 @@ begin
 	generic map ( CWIDTH =>CWIDTH )
 	port map (
 		i_clk=>i_clk,
+                i_en=>i_en,
+                i_preload=>s_half_setpoint,
 		i_rst=> s_rst,
-                i_en=>s_en,
-                i_preload=>s_preload,
 		o_cnt=>s_cnt
 	);
 

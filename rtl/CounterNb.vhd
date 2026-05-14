@@ -9,7 +9,7 @@ entity counterNb is
 	generic ( CWIDTH : natural :=8 );
 	port (
 		i_clk : in std_logic;
-
+                i_en  : in std_logic;
 		i_rst : in std_logic;
 
 		o_cnt :out std_logic_vector(CWIDTH-1 downto 0)
@@ -27,7 +27,7 @@ begin
 		if (i_clk'event and i_clk = '1') then
 			if (i_rst = '1') then 
 				s_cnt <= (others=>'0'); -- reset counter 
-			else
+			elsif i_en = '1' then
 				s_cnt <= s_cnt + 1;     -- count up
 			end if;
 		end if;
