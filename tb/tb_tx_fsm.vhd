@@ -10,15 +10,18 @@ architecture tb of tb_tx_fsm is
  signal s_send: std_logic := '0';
  signal s_ready: std_logic := '0';
  signal s_load: std_logic := '0';
+ signal s_tx_cnt_rst : std_logic := '1';
+ signal s_tx_bit_cnt : std_logic_vector( 3 downto 0) := (others=>'0');
 begin
 
  uut: entity work.tx_fsm
   port map(
    i_clk  => s_clk,
-   i_baud => s_baud_tick,
    i_send => s_send,
    o_ready=> s_ready,
-   o_load => s_load
+   i_tx_bit_cnt => s_tx_bit_cnt,
+   o_load_frame => s_load,
+   o_tx_cnt_rst => s_tx_cnt_rst
   );
 
   -- process to generate clk signal
