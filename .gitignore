@@ -103,3 +103,9 @@ Thumbs.db
 
 # Documents
 *.pdf
+!/docs/
+!/docs/*
+!/docs/*.png
+!/docs/*.jpg
+!/docs/*.jpeg
+!/docs/*.pdf

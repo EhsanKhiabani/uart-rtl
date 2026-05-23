@@ -2,6 +2,8 @@
 
 ## Overview
 
+![UART Block Diagram](docs/rx_core_architecture.png)
+![UART Block Diagram](docs/tx_core_architecture.png)
 This project is an educational RTL implementation of a complete UART (Universal Asynchronous Receiver/Transmitter) communication module using VHDL.
 
 The design includes both:
